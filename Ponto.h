@@ -6,7 +6,7 @@ struct ponto{
    float y;
 };
 
-trypedef struct ponto Ponto;
+typedef struct ponto Ponto;
 
 Ponto* Cria_ponto (float x, float y);
 void Libera_ponto (Ponto * pto);
