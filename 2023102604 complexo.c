@@ -18,7 +18,7 @@ complexo complexo_subtracao(complexo a, complexo b){
 }
 
 complexo complexo_multiplicacao(complexo a, complexo b){
-  return complexo_cria(a.x * b.x, a.y * b.y);
+  return complexo_cria(a.x * b.x - a.y * b.y, a.x * b.y + b.x* a.y);
 }
 
 complexo complexo_divisao(complexo a, complexo b){
