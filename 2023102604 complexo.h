@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <srdlib.h>
-#include <math.h>
 
 typedef struct{
   double x;
