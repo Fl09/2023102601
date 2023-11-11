@@ -32,10 +32,8 @@ LISTA lista 2 = criarLista(30);
         lista2.vetor[i] = i * 2; // Números pares ordenados
     }
 
-    // Passo 5
     imprimirLista(lista2);
 
-    // Passo 6
     printf("Digite um elemento para buscar na segunda LISTA: ");
     scanf("%d", &elementoBusca);
     int compSeq = 0;
