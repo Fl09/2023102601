@@ -11,7 +11,7 @@ void inserirAluno(ListaAlunos *lista, Aluno aluno){
   }
 }
 
-int alunoDuplicado(ListaAluno *lista, Aluno aluno){
+int alunoDuplicado(ListaAlunos *lista, Aluno aluno){
   for(int i = 0; i<lista ->quantidade; i++){
     if(lista->alunos[i].codigo == aluno.codigo){
       return 1; //aluno com o mesmo código encontrado
