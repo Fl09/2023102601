@@ -11,7 +11,7 @@ int num_filhos;
 } Aluno;
 
 typedef struct {
-   Aluno alunos[MAS_ALUNOS];
+   Aluno alunos[MAX_ALUNOS];
    int quantidade;
 } ListaAlunos;
 
