@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "aluno.h"
+#include "2023103102 - aluno.h"
 #include "turma.h"
 
 Turma criarTurma (int quantidade){
