@@ -14,9 +14,9 @@ typedef struct{
 
 void inicializarLista(ListaAlunos* lista);
 void reiciarLista(ListaAlunos* lista);
-void quantidadeElementos(ListaAlunos lista);
-void listaCheia(ListaAlunos lista);
-void listaVazia(ListaAlunos lista);
+int quantidadeElementos(ListaAlunos lista);
+int listaCheia(ListaAlunos lista);
+int listaVazia(ListaAlunos lista);
 void exibirLista(ListaAlunos lista);
 void inserirElementoOrdenado(ListaAlunos* lista, Aluno aluno);
 void excluirElemento(ListaAlunos* lista, int matricula);
