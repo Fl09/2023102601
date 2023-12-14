@@ -14,7 +14,7 @@ void inserirElemento(LISTA_LIGADA_DINAMICA* lista, int elemento){
 }
 
 void percorrerLista(LISTA_LIGADA_DINAMICA lista){
-  No* atual = lista.cabec;
+  No* atual = lista.cabeca;
   while (atula != NULL){
     printf("%d ", atual->dado);
     atual = atual->proximo;
