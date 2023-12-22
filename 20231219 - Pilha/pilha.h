@@ -22,3 +22,5 @@ void listarPrimeiroAviao(Pilha pilha);
 void tirarAviao(Pilha* pilha);
 void tirarAviaoPorPosicao(Pilha* pilha, int posicao);
 int contarAvioes(Pilha pilha);
+
+#endif
