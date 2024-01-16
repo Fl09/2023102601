@@ -15,6 +15,5 @@ typedef struct HashTable {
 HashTable* criarHashTable();
 void inserir(HashTable* hashTable, int chave);
 void exibirHashTable(HashTable* hashTable);
-void destruirHashTable(HashTable* hashTable);
 
 #endif // HASH_TABLE_H
